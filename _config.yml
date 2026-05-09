@@ -1,25 +1,13 @@
 title: "Kavya Agrawal"
-description: "PhD Scholar | Groundwater Contamination | Remote Sensing | GIS | AI/ML/DL"
-url: ""
+description: "Ph.D. Scholar | Groundwater Contamination | Remote Sensing | GIS | AI/ML/DL"
+url: "https://KavyaAgrawal24.github.io"
 baseurl: ""
-
 author:
   name: "Kavya Agrawal"
   affiliation: "TERI School of Advanced Studies"
   email: "kavya.agrawal@terisas.ac.in"
-
 markdown: kramdown
-permalink: /blog/:year/:month/:day/:title/
-
+permalink: /research-notes/:year/:month/:day/:title/
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-
-collections:
-  pages:
-    output: true
-
-exclude:
-  - README.md
-  - Gemfile
-  - Gemfile.lock
